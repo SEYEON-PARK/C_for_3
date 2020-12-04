@@ -4,9 +4,9 @@ int main(void)
 {
 	char a[100];
 	int num = 0;
-	printf("ÇĞ¹øÀ» ÀÔ·ÂÇÏ½Ã¿À. : ");
+	printf("í•™ë²ˆì„ ì…ë ¥í•˜ì‹œì˜¤. : ");
 	scanf_s("%s", a, sizeof(a));
-	printf("ÇĞ¹ø : ");
+	printf("í•™ë²ˆ : ");
 	for (int i = 0; a[i] != NULL; i++)
 	{
 		printf("%c", a[i]);
